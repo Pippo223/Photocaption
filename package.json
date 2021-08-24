@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,9 +16,10 @@
   "bugs": {
     "url": "https://github.com/Pippo223/Photocaption/issues"
   },
-  "homepage": "https://github.com/Pippo223/Photocaption#readme",
   "dependencies": {
+    "bcrypt": "^5.0.1",
     "cookie-parser": "^1.4.5",
+    "debug": "^4.3.2",
     "ejs": "^3.1.6",
     "express": "^4.17.1",
     "helmet": "^4.6.0",
@@ -25,6 +27,7 @@
     "jsonwebtoken": "^8.5.1",
     "logger": "^0.0.1",
     "morgan": "^1.10.0",
+    "node-cache": "^5.1.2",
     "path": "^0.12.7",
     "pg": "^8.7.1",
     "pg-hstore": "^2.3.4",
